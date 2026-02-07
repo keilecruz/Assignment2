@@ -178,13 +178,14 @@ nav{
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
-    padding: 10px;
-    margin-bottom: 40px;
+    padding: 0;
+    margin: 0;
+    
 }
 
 /*-------- about ----------*/
 .about1{
-    width: 80%;
+    width: 70%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
@@ -211,13 +212,23 @@ nav{
 
 .about1 p{
     color: #000000;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
     margin-bottom: 40px;
 }
 
+.aboutweb{
+    display: flex;
+    align-items: center;
+    top: 20%;
+}
+
+.aboutweb p{
+    margin-left: 5%;
+    justify-content: center;
+}
 
 /*--------- new character form -------*/
 .text-box3 h1{
