@@ -122,5 +122,22 @@ nav{
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+    margin-bottom: 40px;
+} 
+
+.row1, .row2{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 40px;
 }
+
+.row1 h3, .row2 h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
 
