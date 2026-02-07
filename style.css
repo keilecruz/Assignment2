@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0%;
+    font-family: "Fraunces", serif;
 }
 
 .header{
@@ -38,3 +39,80 @@ nav{
     font-size: 18px;
 }
 
+.nav-links ul li ::after{
+    content:'';
+    width: 0;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+
+}
+
+.nav-links ul li :hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    text-align: center;
+}
+
+.text-box h1{
+    position: absolute;
+    bottom: 86%;
+    left: 50%;
+    font-size: 44px;
+    transform: translateX(-50%);
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    position: absolute;
+    top: 83%;
+    left: 51%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    
+}
+
+.char-info{
+    display: inline-block;    
+    margin-top: 67%;
+    margin-left: 5%;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    cursor: pointer;
+} 
+
+.char-info:hover{
+    border: 1px solid #fff;
+    background: #fff;
+    transition: 1s;
+    color: black;
+}
+
+/*-----  character gallary  ------*/
+
+.gallaryhome{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+
+} h1{
+
+    font-size: 40;
+    font-weight: 600;
+
+}
