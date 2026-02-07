@@ -74,8 +74,8 @@ nav{
 .text-box p{
     margin: 10px 0 40px;
     position: absolute;
-    top: 83%;
-    left: 50%;
+    top: 85%;
+    left: 52%;
     transform: translateX(-50%);
     font-size: 30px;
     color: #fff;
@@ -85,7 +85,7 @@ nav{
 
 .char-info{
     display: inline-block;    
-    margin-top: 67%;
+    margin-top: 50%;
     margin-left: 5%;
     text-decoration: none;
     color: #fff;
