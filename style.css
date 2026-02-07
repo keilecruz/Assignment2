@@ -75,9 +75,11 @@ nav{
     margin: 10px 0 40px;
     position: absolute;
     top: 83%;
-    left: 51%;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 30px;
+    color: #fff;
+    
     
 }
 
@@ -111,8 +113,13 @@ nav{
 
 
 } h1{
-
-    font-size: 40;
+    font-size: 40px;
     font-weight: 600;
 
+} p{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
 }
