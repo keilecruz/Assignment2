@@ -65,10 +65,11 @@ nav{
 
 .text-box h1{
     position: absolute;
-    bottom: 86%;
+    bottom: 78%;
     left: 50%;
     font-size: 44px;
     transform: translateX(-50%);
+    z-index: 1;
 }
 
 .text-box p{
@@ -137,7 +138,40 @@ nav{
     margin-top: 10px;
 }
 
+/*------ details -------*/
+
+.text-box2 h1{
+    position: absolute;
+    color: #fff;
+    bottom: 10%;
+    left: 50%;
+    font-size: 65px;
+    transform: translateX(-50%);
+    z-index: 1; 
+
+}
+
+/*-------- about ----------*/
+
+.text-box3 h1{
+    position: absolute;
+    color: #fff;
+    bottom: 10%;
+    left: 50%;
+    font-size: 65px;
+    transform: translateX(-50%);
+    z-index: 1; 
+}
 
 
+/*--------- new character form -------*/
+.text-box3 h1{
+    position: absolute;
+    color: #fff;
+    bottom: 10%;
+    left: 50%;
+    font-size: 65px;
+    transform: translateX(-50%);
+    z-index: 1; 
 
-
+}
