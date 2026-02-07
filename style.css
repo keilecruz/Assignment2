@@ -173,6 +173,15 @@ nav{
     font-weight: 600;
 }
 
+.InfoChar p{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
 /*-------- about ----------*/
 .about1{
     width: 80%;
@@ -198,6 +207,15 @@ nav{
     font-size: 65px;
     transform: translateX(-50%);
     z-index: 1; 
+}
+
+.about1 p{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    margin-bottom: 40px;
 }
 
 
