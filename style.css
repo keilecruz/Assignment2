@@ -121,7 +121,7 @@ nav{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 40px;
 
 
 } h1{
@@ -130,7 +130,7 @@ nav{
 
 } p{
     color: #000000;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
@@ -148,6 +148,35 @@ nav{
     text-align: center;
     margin-top: 10px;
 }
+
+.SearchChar{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+} h1{
+    font-size: 40px;
+    font-weight: 600;
+
+} p{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    margin-bottom: 40px;
+} 
+
+.SearchChar .search Input, .SearchChar .search select{
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
 
 /*------ details.html -------*/
 
