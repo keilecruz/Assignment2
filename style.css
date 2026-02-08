@@ -1,3 +1,5 @@
+/*-------- index.html---------*/
+
 *{
     margin: 0;
     padding: 0%;
@@ -147,7 +149,7 @@ nav{
     margin-top: 10px;
 }
 
-/*------ details -------*/
+/*------ details.html -------*/
 
 .text-box2 h1{
     position: absolute;
@@ -220,23 +222,22 @@ nav{
 
 
 
-/*-------- about ----------*/
+/*-------- about.html ----------*/
 .about1{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 80px;
 
 } 
 .about1 h1{
 
-    font-size: 14px;
+    font-size: 40px;
     font-weight: 600;
     margin-top: 5%;
     padding: 0;
     margin: 1%;
-    margin-left: 15%;
-    
+    text-align: center;
 }
 
 
@@ -267,7 +268,7 @@ nav{
     margin-left: 3%;
 }
 
-/*--------- new character form -------*/
+/*--------- new character form.html -------*/
 .text-box3 h1{
     position: absolute;
     color: #fff;
@@ -289,8 +290,53 @@ nav{
 .newChar h1{
     font-size: 40px;
     font-weight: 600;
+
 }
 
+.newChar{
+    width: 80%;
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center; 
+    margin-top: 1%;   
+}
+
+.char-form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.char-form label{
+    text-align: left;
+    font-weight: 600;
+}
+
+.char-form input, .char-form textarea{
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.char-form button{
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #000000;
+    color: #ccc;
+    border: none;
+    cursor: pointer;
+}
+
+.char-form button:hover{
+    opacity: .85;
+}
+
+
+/*----------- transition for index.html (moving down the page)---------*/
 html{
     scroll-behavior: smooth;
 }

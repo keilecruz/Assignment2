@@ -39,17 +39,35 @@
 
     <section class="newChar">
         <h1>New Character Form</h1>
-        <p> want to add a new character to this forum? insert all the information below
-            to add in new characters!
+        <p> Want to add a new character to this forum? Insert all the information below
+            to add in a New Character!
         </p>
 
-        <div>
-            
+        <form class="char-form">
 
-        </div>
+            <label for="name"> Character Name </label>
+            <input type="text" id="name" name="name" placeholder="e.g Bucky Barnes"> 
+
+            <label for="universe"> Universe </label>
+            <input type="text" id="universe" name="universe" placeholder="e.g Earth 616">
+
+            <label for="role"> Role </label>
+            <input type="text" id="role" name="role" placeholder="e.g Winter Soldier">
+
+            <label for="image"> Image</label>
+            <input type="text" id="image" name="image" placeholder="https://example.come/image.jpg">
+
+            <label for="description">Short Description</label>
+            <textarea id="description" name="description" rows="5"
+            placeholder="Brief description of the character...."></textarea>
+
+            <button type="submit"> Add Note </button>
 
 
+        </form>
 
+        <!---You can write information for the class but it won't have a backend service-->
+        
     </section>
 
 
