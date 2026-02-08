@@ -115,7 +115,7 @@ nav{
 
 /*-----  character gallary  ------*/
 
-.gallaryhome{
+.gallaryhome1{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -163,10 +163,15 @@ nav{
 .InfoChar{
     width: 80%;
     margin: auto;
-    text-align: center;
-    padding-top: 100px;
-    margin-bottom: 10%;
 
+    padding-top: 100px;
+
+}
+.InfoChar h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 5%;
+    text-align: center;
 }
 
 .InfoChar1{
@@ -192,9 +197,28 @@ nav{
     font-weight: 300;
     line-height: 22px;
     padding: 0;
-    margin: 0;
+    margin: 1%;
     margin-left: 15%;
 }
+
+
+.InforChar2{
+    display: flex;
+    align-items: center;
+    top: 20%;
+}
+
+.Infotext2 p{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 0;
+    margin: 1%;
+    margin-left: 10%;
+}
+
+
 
 /*-------- about ----------*/
 .about1{
@@ -206,9 +230,13 @@ nav{
 } 
 .about1 h1{
 
-    font-size: 40px;
+    font-size: 14px;
     font-weight: 600;
     margin-top: 5%;
+    padding: 0;
+    margin: 1%;
+    margin-left: 15%;
+    
 }
 
 
@@ -261,4 +289,12 @@ nav{
 .newChar h1{
     font-size: 40px;
     font-weight: 600;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#gallaryhome{
+    scroll-margin-top: 100px;
 }
